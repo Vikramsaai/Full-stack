@@ -1,0 +1,73 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ensure full viewport height */
+    margin: 0;
+    background: url("C:\Users\SITHIK\OneDrive\Desktop\ChessChampion\src\assets\hassan-pasha-nEbMedmVwgw-unsplash.jpg") no-repeat;
+    background-size: cover;
+    background-image: center;
+  }
+  
+  .register-container {
+    width:400px; 
+    padding: 20px; 
+    background : transparent;
+    border: 2px solid rgba(255, 255, 255,.2);
+    backdrop-filter: blur(30px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    border-radius: 10px;
+  }
+  
+  .register-container h2 {
+    margin-bottom: 20px; /* Add spacing */
+    text-align: center; /* Align text center */
+    color: black;
+  }
+  
+  .form-group {
+    margin-bottom: 15px; /* Add spacing */
+    color: black;
+  }
+  
+  .form-group label {
+    display: block; /* Make label block level */
+    margin-bottom: 5px; /* Add spacing */
+  }
+  
+  .form-group input {
+    width: 380px; /* Set width */
+    padding: 10px; /* Add padding */
+    font-size: 16px; /* Set font size */
+    border: 1px solid #ccc; /* Add border */
+    border-radius: 5px; /* Add border radius */
+  }
+  
+  button[type="submit"] {
+    background-color: #1d7732; /* Set background color */
+    color: #fff; /* Set text color */
+    padding: 10px 20px; /* Add padding */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Add border radius */
+    cursor: pointer; /* Add cursor pointer */
+    width: 100%; /* Set width */
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #0056b3; /* Change background color on hover */
+  }
+  
+  .additional-links {
+    text-align: center; /* Align text center */
+    margin-top: 15px; /* Add spacing */
+  }
+  
+  .additional-links a {
+    color: #007bff; /* Set link color */
+    text-decoration: none; /* Remove underline */
+  }
+  
+  .additional-links a:hover {
+    text-decoration: underline; /* Add underline on hover */
+  }
+  
