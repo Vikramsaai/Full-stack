@@ -1,0 +1,36 @@
+/* Home.css */
+
+
+
+.box {
+  text-align: center;
+  background: url("C:\Users\SITHIK\OneDrive\Desktop\ChessChampion\src\assets\lmages\home.jpg") no-repeat;
+  background-size: cover;
+  height: 400px; /* Adjust the height as needed */
+  width: 100%;
+  margin: 0; /* Add this line to remove any default margin */
+  padding: 0; /* Add this line to remove any default padding */
+}
+
+.home-text {
+  color: white;
+}
+
+.img1 {
+  width: 30%;
+}
+
+.jour {
+  align-items: flex-start;
+  margin: 0;
+  padding: 0;
+}
+
+.b {
+  background-color: rgba(252, 236, 191, 0.866);
+}
+
+.text-container {
+  height: calc(100vh - 200px); /* Adjust the height as needed */
+  overflow-y: auto;
+}
